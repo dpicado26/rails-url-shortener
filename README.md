@@ -88,6 +88,7 @@ Built it without previous experience on ruby on rails, that made me do a lot of 
 - Added the require 'open-uri' to use it to fetch the url
 
 - perform method
+    
     Get the record from the database using the id, then using Nokogiri parse the html of the full url and extract the value of the title tag, then assign the title value to the object and save it to update the record on the database.
     ```sh
     shortUrl = ShortUrl.find(short_url_id)
